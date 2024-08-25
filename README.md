@@ -1,6 +1,12 @@
-![Firefox_Screenshot_2024-06-30T18-56-12 276Z](./Screenshots/1.png)
+(./Screenshots/1.png)
 #
-![Firefox_Screenshot_2024-06-30T18-56-12 276Z](https://github.com/SouZe-San/Avgayan/assets/103335953/d8d7a4f4-12f5-40fd-aac8-7fe1404a5fd9)
+![Firefox_Screenshot_2024-06-30T18-56-12 276Z](./Screenshots/2.png)
 
 #
-![Screenshot 2024-07-01 at 00-25-30 Avgayan](https://github.com/SouZe-San/Avgayan/assets/103335953/25c506e5-72f4-4593-946d-3f8c2b02163f)
+![Firefox_Screenshot_2024-06-30T18-56-12 276Z](./Screenshots/3.png)
+
+#
+![Firefox_Screenshot_2024-06-30T18-56-12 276Z](./Screenshots/4.png)
+
+#
+![Firefox_Screenshot](./Screenshots/5.png)
