@@ -1,4 +1,4 @@
-./Screenshots/1.png
+![Firefox_Screenshot_2024-06-30T18-56-12 276Z](./Screenshots/1.png)
 #
 ![Firefox_Screenshot_2024-06-30T18-56-12 276Z](https://github.com/SouZe-San/Avgayan/assets/103335953/d8d7a4f4-12f5-40fd-aac8-7fe1404a5fd9)
 
