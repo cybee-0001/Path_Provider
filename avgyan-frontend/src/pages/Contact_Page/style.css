@@ -1,0 +1,172 @@
+.contactPage-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.main_container {
+  border: 2px solid white;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+  top: -200px;
+  border-radius: 15px;
+}
+
+.background_picture {
+  width: 100vw;
+  height: 45vh;
+  background-color: #001194;
+  background: url("../../assets/images/contacts/img/background.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.background_picture span {
+  color: white;
+  font-size: 3.8rem;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.background_picture p {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 15%;
+}
+
+.form-container {
+  width: 65%;
+  padding: 20px;
+  padding-top: 2.5%;
+  padding-bottom: 4.5%;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.contact-info {
+  width: 35%;
+  background-color: #3885e9;
+  text-align: center;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-group {
+  margin-bottom: 15px;
+
+  width: 48%; /* Adjust the width to 48% for spacing between columns */
+  display: inline-block; /* Ensures the elements stay inline */
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.input-group.full-width {
+  width: 100%; /* Full width for textarea */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgb(25, 25, 25);
+  color: white;
+
+  width: 100%; /* Full width of the parent container */
+  padding: 10px;
+  box-sizing: border-box;
+  height: 4rem;
+  font-size: 1.4rem;
+}
+
+textarea {
+  height: 4rem; /* Adjust the height based on your requirement */
+  display: block;
+  width: 100%;
+}
+
+button.contact-btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0056b3;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px; /* Margin for spacing */
+  width: 100%; /* Full width button */
+  max-width: 200px; /* Optional: limit width */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto;
+  font-size: 2rem; /* Center horizontally */
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+.contact-info h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.mail-icon img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+/* Set placeholder text color to white */
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  opacity: 1; /* Ensures the color is not translucent */
+}
+
+#contact_message {
+  width: 96%;
+}

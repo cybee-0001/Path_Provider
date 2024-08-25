@@ -1,0 +1,60 @@
+section.myPlace-Section {
+  padding-top: calc(var(--nav-height) + 5rem);
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  .headerTag {
+    h1 {
+      line-height: 1.2;
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    h1:nth-child(2) {
+      font-size: 3.5rem;
+      color: plum;
+      margin-left: 4rem;
+    }
+
+    p {
+      margin-top: 0.7rem;
+      width: 50%;
+      color: var(--gray-text-color);
+    }
+  }
+}
+.mainSection {
+  margin-top: 4rem;
+  position: relative;
+  .transparentBlank {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 8rem;
+    color: #ec88fa14;
+    text-transform: uppercase;
+  }
+}
+
+.addNote_modal,
+.EditNote_modal {
+  transform: translateX(-200%);
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #04031496;
+  flex-direction: column;
+}

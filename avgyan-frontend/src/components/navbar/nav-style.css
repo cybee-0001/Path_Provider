@@ -1,0 +1,97 @@
+header.nav-header {
+  position: fixed;
+  width: 100%;
+  padding: 0.5rem 5rem;
+  height: var(--nav-height);
+  backdrop-filter: blur(7px);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 4rem;
+      /* width: 100%; */
+    }
+    span {
+      font-size: 2rem;
+      font-weight: bolder;
+      letter-spacing: 3px;
+      color: #b4b4ea;
+    }
+  }
+}
+
+.nav-header::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 2rem;
+  background: linear-gradient(90deg, #ffffff0d 3%, #f8f8f82e 48%, #ffffff0d 97%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    li {
+      list-style: none;
+      font-size: 1.2rem;
+      position: relative;
+      padding: 0 5px 3px 5px;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background-color: #af9dffc9;
+        bottom: 0;
+        left: 0;
+        transition: width 0.3s;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.cta_btns {
+  button {
+    background-color: var(--button-bg);
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+    outline: none;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--button-bg-hover);
+    }
+  }
+}

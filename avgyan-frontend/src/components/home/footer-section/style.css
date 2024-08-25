@@ -1,0 +1,110 @@
+.footerSection {
+  width: 100%;
+  padding: 0 5rem;
+  margin-top: 15rem;
+  border-top: 1px solid #fff;
+  padding-bottom: 3rem;
+  background: #66666621;
+
+  .upperDiv {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: -10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    border-radius: 15px;
+    background-color: #a98afe;
+    h2 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+
+  .underDiv {
+    margin-top: -5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .leftDiv {
+      width: 10%;
+      .logo {
+        text-align: center;
+      }
+      img {
+        width: 80%;
+      }
+    }
+
+    .middleDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      aside {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .social {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          justify-content: center;
+          align-items: flex-end;
+          div {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            &:hover {
+              img,
+              span {
+                opacity: 1;
+              }
+              img {
+                transform: scale(1.07);
+              }
+            }
+            img {
+              width: 2rem;
+              height: 2rem;
+              opacity: 0.7;
+              transition: all 0.3s ease-in-out;
+            }
+
+            span {
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+
+    .rightDiv {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-end;
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #fff;
+      }
+      p {
+        display: flex;
+        gap: 1rem;
+        font-size: 1.3rem;
+        font-style: italic;
+        img {
+          width: 1.5rem;
+        }
+      }
+    }
+  }
+}
